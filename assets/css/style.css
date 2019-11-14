@@ -1,0 +1,153 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+
+html {
+    font-size: 62.5%;
+    height: 100%;
+    line-height: 1.5;
+}
+
+ul,
+ol {
+    list-style-type: none
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    vertical-align: middle;
+}
+
+body {
+    height: 100%;
+    position: relative;
+    font-family: 'Roboto', sans-serif;
+}
+
+p {
+    font-size: 1.4rem;
+}
+
+/* service part start */
+
+.service-full{
+    padding: 7.5rem 0;
+    background-color: #f5f6f7;
+}
+
+.service-head{
+    text-align: center;
+    margin-bottom: 5rem;
+}
+
+.service-head h2{
+    font-size: 1.2rem;
+    color: #f9b851;
+    font-weight: 600;
+    letter-spacing: .2rem;
+}
+
+.service-head h3{
+    font-size: 4.7rem;
+    color: #000;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    margin: 1.8rem 0;
+}
+
+@media (max-width: 991px) {
+    .service-head h3{
+        font-size: 3.7rem;
+    }
+}
+
+@media (max-width: 767px) {
+    .service-head h3{
+        font-size: 2.9rem;
+    }
+}
+
+.service-head p{
+    font-size: 1.5rem;
+    color: #000;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    padding: 0 35rem;
+}
+
+@media (max-width: 1199px) {
+    .service-head p{
+        padding: 0 25rem;
+    }
+}
+
+@media (max-width: 991px) {
+    .service-head p{
+        padding: 0 13rem;
+    }
+}
+
+@media (max-width: 767px) {
+    .service-head p{
+        padding: 0 6rem;
+    }
+}
+
+@media (max-width: 575px) {
+    .service-head p{
+        padding: 0;
+    }
+}
+
+.single-services{
+    margin-top: 3rem;
+    padding: 4rem 2rem 4rem 10rem;
+    background-color: #fff;
+    position: relative;
+}
+
+.single-services i{
+    font-size: 4.5rem;
+    color: #000b96;
+    position: absolute;
+    top: 45%;
+    left: 2.5rem;
+    transform: translateY(-50%);
+}
+
+.single-services i.icon-2 {
+    color: #4fda91;
+}
+
+.single-services i.icon-3 {
+    color: #f9b851;
+}
+
+.single-services i.icon-4 {
+    color: #fe688b;
+}
+
+.single-services h2{
+    font-size: 2.3rem;
+    color: #000;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    line-height: 1.5;
+    margin-bottom: 1rem;
+}
+
+.single-services p{
+    font-size: 1.5rem;
+    color: #828282;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    line-height: 1.9;
+}
+
+/* service part end */
+
